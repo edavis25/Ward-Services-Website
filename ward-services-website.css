@@ -1,0 +1,166 @@
+/*###########################################################################################
+ CUSTOM CSS - Everything past here has been added to theme (theme = Zerif Lite + BlackBeard)
+ #############################################################################################*/
+
+/*--------------------------------------------------------------
+ All Pages / Background
+ --------------------------------------------------------------*/
+/* Change color of bar fixed to top of page containing logo */
+.navbar 
+{
+	background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0 !important;
+}
+
+/* Changes color transparency site */
+.header
+{
+	background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0 !important;
+}
+
+/* Footer background color */
+#footer 
+{
+	background: black none repeat scroll 0 0 !important;
+}
+
+/* Footer anchor links for email address and phone number */
+#footer a 
+{
+	color: white;
+}
+#footer a:hover 
+{
+	color: rgb(234, 71, 71);
+}
+
+/* Fix background image to be responsive on mobile phones */
+body:before 
+{
+	content: "";
+	display: block;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -10;
+	background: url("http://wardservices.net/blog/wp-content/uploads/2016/10/background-yard-1200-crop.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/*--------------------------------------------------------------
+ Homepage
+ --------------------------------------------------------------*/
+/* Change color/size of "Ward Services" in title */
+#big-title-text 
+{
+	color: rgb(234, 71, 71);
+	font-size: 55px;
+}
+
+/* Home screen background image cover page*/
+body.custom-background
+ {
+	background-size: cover;
+}
+
+/* Change "Services" headers to white text */
+h3.red-border-bottom 
+{
+	color: white;
+}
+
+/* Lighten transparency for background image filter */
+.header-content-wrap 
+{
+	background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+}
+
+/* Background for the site tagline h1 element */
+.intro-text 
+{
+	background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0 !important;
+}
+
+/* Change default green/blue button to match red button */
+.green-btn 
+{
+	background: rgba(234, 71, 71, 0.4) none repeat scroll 0 0 !important;
+	border-color: #ea4747;
+}
+.green-btn:hover 
+{
+	background: #cb4332 !important;
+	border-color: #cb4332 !important;
+}
+
+/* Services and Area header */
+.dark-text 
+{
+	color: rgb(234, 71, 71) !important;
+}
+
+/* Services area background transparency */
+.focus 
+{
+	background: rgba(32, 39, 40, 0.2) none repeat scroll 0 0 !important;
+}
+
+/* Lists of items under services */
+.services-lists 
+{
+	color: white !important;
+}
+
+/* About Us section of homepage. Div background and headers + text color */
+#testimonials 
+{
+	background: rgba(0, 0, 0, 0.5) !important;
+}
+.testimonial h2 
+{
+	color: rgb(234, 71, 71) !important;
+}
+#about-us-text
+ {
+	color: white !important;
+	font-size: 1.5em;
+}
+
+/* Layer of transparency covering the entire homepage*/
+.home .site-content 
+{
+	background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0 !important;
+}
+
+/*--------------------------------------------------------------
+ Gallery Page
+ --------------------------------------------------------------*/
+/* Remove background from site-content on gallery page */
+.page-id-29 .site-content 
+{
+	background: none;
+}
+
+/* Main div containing the gallery element on gallery page */
+.page-id-29 .entry-content 
+{
+	background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0 !important;
+	padding-top: 4%;
+	text-align: center;
+}
+.page-id-29 .entry-content h1 
+{
+	color: white;
+	padding-bottom: 2%;
+}
+
+/* Transparency overlay for background image on gallery page*/
+body.page-id-29 .page-transparency 
+{
+	background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0 !important;
+}
+
